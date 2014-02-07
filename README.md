@@ -10,7 +10,7 @@ Include the `text-shadow.js` in your HTML. That's all. text-shadow values will b
 
 Credits
 -------
-Copyright (c) 2014 Kazz
-http://asamuzak.jp
-Dual licensed under MIT or GPL
+Copyright (c) 2014 Kazz  
+http://asamuzak.jp  
+Dual licensed under MIT or GPL  
 http://asamuzak.jp/license
