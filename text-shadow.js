@@ -848,7 +848,8 @@ function toggleDPseudoClassShadow(evt) {
                 }
             }
             _doc.documentElement.removeEventListener('beforecopy', removeShadowBeforeCopy, true);
-            _doc.documentElement.removeEventListener('copy', resetShadowAfterCopy, true);
+            _doc.documentElement.removeEventListener('copy', setShadowQAtCopy, true);
+            _doc.documentElement.removeEventListener('blur', resetShadowAfterCopy, true);
             _win.alert((_$ = _doc.documentElement.getAttribute('lang')) && /^ja(?:\-JP)?$/.test(_$) ? '\u8a2d\u5b9a\u5b8c\u4e86' : 'Done');
             _$ = _doc.getElementById('textShadowConfirmation');
             _$ && _$.parentNode.removeChild(_$);
